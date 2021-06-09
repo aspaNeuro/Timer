@@ -1,0 +1,13 @@
+build 
+*.csv
+node_modules
+bin
+obj
+images*
+Packages
+*.yml
+*.exe
+*.exe.settings
+WIP
+bonsai/Workflows/*.csv
+bonsai/Workflows/raw.csv
