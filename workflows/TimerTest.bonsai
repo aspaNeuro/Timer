@@ -8,7 +8,7 @@
     <Nodes>
       <Expression xsi:type="Combinator">
         <Combinator xsi:type="p1:Timer">
-          <p1:MiliSeconds>0.01</p1:MiliSeconds>
+          <p1:MiliSeconds>0.001</p1:MiliSeconds>
         </Combinator>
       </Expression>
       <Expression xsi:type="Condition">
@@ -22,7 +22,7 @@
             </Expression>
             <Expression xsi:type="Mod">
               <Operand xsi:type="IntProperty">
-                <Value>10000</Value>
+                <Value>1000</Value>
               </Operand>
             </Expression>
             <Expression xsi:type="Equal">
@@ -48,7 +48,7 @@
       </Expression>
       <Expression xsi:type="Divide">
         <Operand xsi:type="DoubleProperty">
-          <Value>10000</Value>
+          <Value>1000</Value>
         </Operand>
       </Expression>
     </Nodes>
